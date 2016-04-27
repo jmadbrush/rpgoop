@@ -14,6 +14,11 @@
 		BFFC80041CCE5CC400E780CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFFC80021CCE5CC400E780CE /* LaunchScreen.storyboard */; };
 		BFFC800F1CCE5CC400E780CE /* RPGOOPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFC800E1CCE5CC400E780CE /* RPGOOPTests.swift */; };
 		BFFC801A1CCE5CC400E780CE /* RPGOOPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFC80191CCE5CC400E780CE /* RPGOOPUITests.swift */; };
+		BFFC80281CCE5DBA00E780CE /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFC80271CCE5DBA00E780CE /* Character.swift */; };
+		BFFC802A1CCE5F0700E780CE /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFC80291CCE5F0700E780CE /* Player.swift */; };
+		BFFC802C1CCE60B500E780CE /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFC802B1CCE60B500E780CE /* Enemy.swift */; };
+		BFFC802E1CCE626C00E780CE /* Kimara.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFC802D1CCE626C00E780CE /* Kimara.swift */; };
+		BFFC80301CCE637C00E780CE /* DevilWizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFC802F1CCE637C00E780CE /* DevilWizard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		BFFC80151CCE5CC400E780CE /* RPGOOPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RPGOOPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFFC80191CCE5CC400E780CE /* RPGOOPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPGOOPUITests.swift; sourceTree = "<group>"; };
 		BFFC801B1CCE5CC400E780CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFFC80271CCE5DBA00E780CE /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		BFFC80291CCE5F0700E780CE /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		BFFC802B1CCE60B500E780CE /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		BFFC802D1CCE626C00E780CE /* Kimara.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kimara.swift; sourceTree = "<group>"; };
+		BFFC802F1CCE637C00E780CE /* DevilWizard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevilWizard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,11 @@
 				BFFC80001CCE5CC400E780CE /* Assets.xcassets */,
 				BFFC80021CCE5CC400E780CE /* LaunchScreen.storyboard */,
 				BFFC80051CCE5CC400E780CE /* Info.plist */,
+				BFFC80271CCE5DBA00E780CE /* Character.swift */,
+				BFFC80291CCE5F0700E780CE /* Player.swift */,
+				BFFC802B1CCE60B500E780CE /* Enemy.swift */,
+				BFFC802D1CCE626C00E780CE /* Kimara.swift */,
+				BFFC802F1CCE637C00E780CE /* DevilWizard.swift */,
 			);
 			path = RPGOOP;
 			sourceTree = "<group>";
@@ -256,6 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFFC802C1CCE60B500E780CE /* Enemy.swift in Sources */,
+				BFFC802A1CCE5F0700E780CE /* Player.swift in Sources */,
+				BFFC80301CCE637C00E780CE /* DevilWizard.swift in Sources */,
+				BFFC802E1CCE626C00E780CE /* Kimara.swift in Sources */,
+				BFFC80281CCE5DBA00E780CE /* Character.swift in Sources */,
 				BFFC7FFC1CCE5CC400E780CE /* ViewController.swift in Sources */,
 				BFFC7FFA1CCE5CC400E780CE /* AppDelegate.swift in Sources */,
 			);
@@ -484,6 +504,7 @@
 				BFFC80201CCE5CC400E780CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFFC80211CCE5CC400E780CE /* Build configuration list for PBXNativeTarget "RPGOOPTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +513,7 @@
 				BFFC80231CCE5CC400E780CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFFC80241CCE5CC400E780CE /* Build configuration list for PBXNativeTarget "RPGOOPUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +522,7 @@
 				BFFC80261CCE5CC400E780CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
